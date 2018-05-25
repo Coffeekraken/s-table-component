@@ -67,7 +67,7 @@
 				/**
 				 * @name 		<span class="c-#{$color}">#{_start-case($color)}</span> ```.#{s-component()}--#{$color}```
 				 * Display #{$color} table contents
-				 * @styleguide 		Objects / #{_start-case(s-component())}
+				 * @styleguide 		Atoms / #{_start-case(s-component())}
 				 * @example 		html
 				 * <table class="#{s-component()} #{s-component()}--#{$color}">
 				 * 	<thead>
@@ -103,7 +103,7 @@
 						/**
 						 * @name 		<span class="c-#{$color}">#{_start-case($color)}</span> ```.#{s-component()}--striped.#{s-component()}--#{$color}```
 						 * Display #{$color} striped table contents
-						 * @styleguide 		Objects / #{_start-case(s-component())}
+						 * @styleguide 		Atoms / #{_start-case(s-component())}
 						 * @example 		html
 						 * <table class="#{s-component()} #{s-component()}--#{$color} #{s-component()}--striped">
 						 * 	<thead>
@@ -146,7 +146,7 @@
 						/**
 						 * @name 		<span class="c-#{$color}">#{_start-case($color)}</span> ```.#{s-component()}--bordered.#{s-component()}--#{$color}```
 						 * Display #{$color} bordered table contents
-						 * @styleguide 		Objects / #{_start-case(s-component())}
+						 * @styleguide 		Atoms / #{_start-case(s-component())}
 						 * @example 		html
 						 * <table class="#{s-component()} #{s-component()}--#{$color} #{s-component()}--bordered">
 						 * 	<thead>
@@ -183,7 +183,7 @@
 						/**
 						 * @name 		<span class="c-#{$color}">#{_start-case($color)}</span> ```.#{s-component()}--hover.#{s-component()}--#{$color}```
 						 * Display #{$color} hoverable table contents
-						 * @styleguide 		Objects / #{_start-case(s-component())}
+						 * @styleguide 		Atoms / #{_start-case(s-component())}
 						 * @example 		html
 						 * <table class="#{s-component()} #{s-component()}--#{$color} #{s-component()}--hover">
 						 * 	<thead>
@@ -244,7 +244,7 @@
 		/**
 		 * @name 		```.#{s-component()}```
 		 * Display table contents
-		 * @styleguide 		Objects / #{_start-case(s-component())}
+		 * @styleguide 		Atoms / #{_start-case(s-component())}
 		 * @example 		html
 		 * <table class="#{s-component()}">
 		 * 	<thead>
@@ -352,7 +352,7 @@
 			/**
 			 * @name 			```.#{s-component()}--responsive-overflow```
 			 * Display responsive overflow table contents
-			 * @styleguide 		Objects / #{_start-case(s-component())}
+			 * @styleguide 		Atoms / #{_start-case(s-component())}
 			 * @example 		html
 			 * <table class="#{s-component()} #{s-component()}--responsive-overflow">
 			 * 	<thead>
@@ -385,7 +385,7 @@
 			/**
 			 * @name 			```.#{s-component()}--responsive```
 			 * Display responsive table contents
-			 * @styleguide 		Objects / #{_start-case(s-component())}
+			 * @styleguide 		Atoms / #{_start-case(s-component())}
 			 * @example 		html
 			 * <table class="#{s-component()} #{s-component()}--responsive">
 			 * 	<thead>
@@ -417,7 +417,7 @@
 			/**
 			 * @name 		```.#{s-component()}--center```
 			 * Display centered table contents
-			 * @styleguide 		Objects / #{_start-case(s-component())}
+			 * @styleguide 		Atoms / #{_start-case(s-component())}
 			 * @example 		html
 			 * <table class="#{s-component()} #{s-component()}--center">
 			 * 	<thead>
@@ -450,7 +450,7 @@
 			/**
 			 * @name 		```.#{s-component()}--middle```
 			 * Display middle aligned table contents
-			 * @styleguide 		Objects / #{_start-case(s-component())}
+			 * @styleguide 		Atoms / #{_start-case(s-component())}
 			 * @example 		html
 			 * <table class="#{s-component()} #{s-component()}--middle">
 			 * 	<thead>
@@ -489,7 +489,7 @@
 	    	/**
 			 * @name 		```.#{s-component()}--interactive```
 			 * Display cursor on table rows contents
-			 * @styleguide 		Objects / #{_start-case(s-component())}
+			 * @styleguide 		Atoms / #{_start-case(s-component())}
 			 * @example 		html
 			 * <table class="#{s-component()} #{s-component()}--interactive">
 			 * 	<thead>
