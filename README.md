@@ -1,9 +1,9 @@
 # Coffeekraken s-table-component <img src=".resources/coffeekraken-logo.jpg" height="25px" />
 
 <p>
-	<a href="https://travis-ci.org/coffrrkraken/s-table-component">
+	<!-- <a href="https://travis-ci.org/coffrrkraken/s-table-component">
 		<img src="https://img.shields.io/travis/coffrrkraken/s-table-component.svg?style=flat-square" />
-	</a>
+	</a> -->
 	<a href="https://www.npmjs.com/package/coffeekraken-s-table-component">
 		<img src="https://img.shields.io/npm/v/coffeekraken-s-table-component.svg?style=flat-square" />
 	</a>
