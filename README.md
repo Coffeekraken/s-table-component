@@ -61,7 +61,9 @@ npm install coffeekraken-s-table-component --save
 <a name="readme-get-started"></a>
 ## Get Started
 
-First, import the component into your scss file like so:
+First, [import and init sugar](https://github.com/coffeekraken/sugar) into your project.
+
+Then, import the component into your scss file like so:
 
 ```scss
 @import 'node_modules/coffeekraken-s-table-component/index';
