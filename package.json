@@ -1,6 +1,6 @@
 {
   "name": "coffeekraken-s-table-component",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Full stack table styling with support for colored, striped, bordered, responsive table and more...",
   "main": "§dist/index.js",
   "homepage": "http://coffeekraken.io",
