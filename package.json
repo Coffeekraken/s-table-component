@@ -23,6 +23,7 @@
     }
   },
   "scripts": {
+    "playground": "coffeekraken-code-playground",
     "dist": "npm run dist:js",
     "dist:js": "babel src -d dist",
     "demo": "coffeekraken-code-playground",
@@ -57,7 +58,8 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "coffeekraken-sugar": "^1.0.5"
+    "coffeekraken-sugar": "^1.0.5",
+    "coffeekraken-s-typography-component": "^1.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -71,7 +73,6 @@
     "chai": "^3.5.0",
     "coffeekraken-code-playground": "^1.0.0",
     "coffeekraken-docblock-to-markdown": "^1.0.0",
-    "coffeekraken-s-typography-component": "^1.0.0",
     "coffeekraken-scripts-stack": "^1.0.1",
     "git-changelog": "^1.1.2",
     "http-server": "^0.9.0",
