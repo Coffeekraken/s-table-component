@@ -4,7 +4,7 @@
  */
 
 /**
- * Provide all the classes of the button component like .table, .table--striped, etc...
+ * Provide all the classes of the table component like .table, .table--striped, etc...
  * - ```.table```
  * - ```.table--striped```
  * - ```.table--bordered```
@@ -29,7 +29,7 @@
 }
 
 /**
- * Provide all the style classes of the button component like .table, .table--striped, etc...
+ * Provide all the style classes of the table component like .table, .table--striped, etc...
  * - ```.table```
  * - ```.table--striped```
  * - ```.table--bordered```
@@ -221,7 +221,7 @@
 }
 
 /**
- * Provide all the bare classes of the button component like .table, .table--striped, etc...
+ * Provide all the bare classes of the table component like .table, .table--striped, etc...
  * - ```.table```
  * - ```.table--striped```
  * - ```.table--bordered```
@@ -354,7 +354,8 @@
 			 * Display responsive overflow table contents
 			 * @styleguide 		Atoms / #{_start-case(s-component())}
 			 * @example 		html
-			 * <table class="#{s-component()} #{s-component()}--responsive-overflow">
+			 * <div class="#{s-component()} #{s-component()}--responsive-overflow">
+			 * <table>
 			 * 	<thead>
 			 * 		<tr>
 			 *  		<th>#</th>
@@ -372,12 +373,17 @@
 			 * 		</tr>
 			 * 	</tbody>
 			 * </table>
+			 * </div>
 			 */
 			.#{s-component()}--responsive-overflow {
 	    		min-height: 0.01%;
 	    		overflow-x: auto;
 	    		width: 100%;
-	    		overflow-y: hidden;
+				overflow-y: hidden;
+
+				> table {
+					width: 100%;
+				}
 	    	}
 	    }
 
